@@ -1,0 +1,18 @@
+[data-reveal] { opacity:0; transform:translateY(20px); filter:blur(5px); transition:opacity .72s var(--ease-out), transform .72s var(--ease-out), filter .72s ease; }
+[data-reveal].is-revealed { opacity:1; transform:none; filter:none; }
+.app-ready .hero__content { animation:heroText .75s var(--ease-out) both; }
+.app-ready .hero__art { animation:heroArt .9s var(--ease-out) both .08s; }
+
+@keyframes heroText { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:none; } }
+@keyframes heroArt { from { opacity:0; transform:translateY(24px) scale(.98); } to { opacity:1; transform:none; } }
+@keyframes coverShine { 0%,72% { transform:translateX(-140%); } 86%,100% { transform:translateX(140%); } }
+@keyframes eq { from { transform:scaleY(.35); } to { transform:scaleY(1.2); } }
+@keyframes spin { to { transform:rotate(360deg); } }
+@keyframes seekPulse { 0% { opacity:0; transform:translate(-50%,-50%) scale(.78); } 30% { opacity:1; transform:translate(-50%,-50%) scale(1); } 100% { opacity:0; transform:translate(-50%,-70%) scale(.96); } }
+@keyframes playerIn { from { opacity:0; transform:scale(.985); } to { opacity:1; transform:none; } }
+@keyframes wave { from { transform:scaleY(.35); opacity:.5; } to { transform:scaleY(1.35); opacity:1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior:auto !important; animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; }
+  [data-reveal] { opacity:1; transform:none; filter:none; }
+}

@@ -1,0 +1,32 @@
+:root {
+  --charcoal: #121212;
+  --graphite: #1C1C1C;
+  --graphite-2: #242321;
+  --wine: #7A1F2B;
+  --wine-light: #A83A48;
+  --ivory: #F2EDE3;
+  --stone: #A8A29A;
+  --gold: #B89B5E;
+  --black: #090909;
+  --white-soft: #FBF8F1;
+  --line: rgba(242, 237, 227, 0.11);
+  --line-strong: rgba(242, 237, 227, 0.2);
+  --surface: rgba(28, 28, 28, 0.9);
+  --surface-2: rgba(35, 34, 32, 0.78);
+  --shadow-lg: 0 30px 80px rgba(0, 0, 0, 0.38);
+  --shadow-md: 0 18px 44px rgba(0, 0, 0, 0.28);
+  --sidebar-w: 258px;
+  --topbar-h: 82px;
+  --player-h: 100px;
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+  --content-max: 1540px;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-ui: 'Manrope', Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ease-out: cubic-bezier(.2, .72, .2, 1);
+  --ease-spring: cubic-bezier(.2, .9, .24, 1.2);
+  --pointer-x: 50vw;
+  --pointer-y: 30vh;
+}
