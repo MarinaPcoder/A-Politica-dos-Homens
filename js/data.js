@@ -5,7 +5,7 @@
     name: 'A Política dos Homens',
     tagline: 'Ideias que atravessaram os séculos.',
     description: 'Uma experiência digital criada para reunir, apresentar e preservar podcasts produzidos por estudantes a partir do estudo da Filosofia Política.',
-    cover: 'imagens/capa/capa-principal.jpg',
+    cover: 'imagens/capa/capa-principal.png',
     coverFallback: 'imagens/placeholders/capa-principal.svg'
   };
 
@@ -21,6 +21,7 @@
       longDescription: 'A equipe investiga como Marx interpreta as mudanças históricas, as relações entre classes sociais e os conflitos que estruturam a sociedade. O episódio foi pensado para aproximar conceitos centrais da filosofia política marxiana da experiência contemporânea, mantendo o formato de programa de rádio proposto para o trabalho.',
       image: 'imagens/episodios/marx.png',
       philosopherImage: 'imagens/filosofos/marx.png',
+      background: 'imagens/backgrounds/background-marx.png',
       fallbackImage: 'imagens/placeholders/marx.svg',
       color: '#9E2636',
       accentSoft: '#D25B68',
@@ -74,6 +75,7 @@
       longDescription: 'O episódio apresenta os eixos políticos associados a John Locke, com atenção à liberdade, aos direitos, à propriedade e ao consentimento dos governados. A proposta é transformar esses conceitos em uma entrevista radiofônica clara, crítica e conectada a problemas de vida pública.',
       image: 'imagens/episodios/locke.png',
       philosopherImage: 'imagens/filosofos/locke.png',
+      background: 'imagens/backgrounds/background-locke.png',
       fallbackImage: 'imagens/placeholders/locke.svg',
       color: '#65713B',
       accentSoft: '#98A660',
@@ -115,6 +117,7 @@
       longDescription: 'Partindo do problema da segurança e da ordem, o episódio explora o estado de natureza, o contrato e a soberania em Hobbes. A equipe poderá confrontar o pensador com questões atuais sobre autoridade, conflito e limites da obediência política.',
       image: 'imagens/episodios/hobbes.png',
       philosopherImage: 'imagens/filosofos/hobbes.png',
+      background: 'imagens/backgrounds/background-hobbes.png',
       fallbackImage: 'imagens/placeholders/hobbes.svg',
       color: '#4A6577',
       accentSoft: '#7894A6',
@@ -157,6 +160,7 @@
       longDescription: 'O episódio apresenta a teoria da justiça como equidade e suas ferramentas conceituais. A conversa pode mostrar como Rawls propõe pensar regras sociais sem saber de antemão qual posição cada pessoa ocupará na sociedade.',
       image: 'imagens/episodios/rawls.png',
       philosopherImage: 'imagens/filosofos/rawls.png',
+      background: 'imagens/backgrounds/background_rawls.png',
       fallbackImage: 'imagens/placeholders/rawls.svg',
       color: '#203A63',
       accentSoft: '#5577A8',
@@ -199,6 +203,7 @@
       longDescription: 'A equipe conduz uma conversa sobre poder e ação política a partir de Maquiavel, relacionando suas análises sobre liderança, conflito, estabilidade e circunstâncias históricas ao formato de entrevista radiofônica.',
       image: 'imagens/episodios/maquiavel.png',
       philosopherImage: 'imagens/filosofos/maquiavel.png',
+      background: 'imagens/backgrounds/background_maquiavel.png',
       fallbackImage: 'imagens/placeholders/maquiavel.svg',
       color: '#7B2332',
       accentSoft: '#B84B5A',
